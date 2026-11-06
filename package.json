@@ -1,0 +1,12 @@
+{
+  "name": "topspin-szimulator",
+  "version": "5.0.0",
+  "private": true,
+  "description": "Offline Siófoki AK season and per-fixture table tennis simulator",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "precompute": "node scripts/precompute.mjs",
+    "test": "node --test tests/*.test.cjs"
+  },
+  "engines": { "node": ">=20" }
+}
